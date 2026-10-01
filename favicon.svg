@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Хава Садулаева">
+  <defs>
+    <linearGradient id="g" x1="0.08" y1="0" x2="0.92" y2="1">
+      <stop offset="0" stop-color="#C98B7E"/>
+      <stop offset="1" stop-color="#8A5245"/>
+    </linearGradient>
+  </defs>
+  <circle cx="32" cy="32" r="32" fill="url(#g)"/>
+  <path d="M21 21 L43 43 M43 21 L21 43"
+        stroke="#FBF7F4" stroke-width="6.5"
+        stroke-linecap="round" fill="none"/>
+</svg>

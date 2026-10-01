@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Услуги — Хава Садулаева, косметолог-эстетист</title>
+<meta name="description" content="Чистки, пилинги, капилляротерапия, фракционная терапия и мезотерапия, жидкий лазер. Описание процедур и противопоказания.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="img/favicon.ico" sizes="any">
+<link rel="icon" href="img/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ================= ШАПКА ================= -->
+<header class="header" id="header">
+  <div class="wrap">
+    <div class="header__inner">
+      <a href="index.html" class="logo">
+        <span class="logo__mark">Х</span>
+        <span class="logo__text">
+          <span class="logo__name">Хава Садулаева</span>
+          <span class="logo__role">Косметолог-эстетист</span>
+        </span>
+      </a>
+
+      <nav class="nav">
+        <a href="services.html" class="nav__link active">Услуги</a>
+        <a href="about.html" class="nav__link">Обо мне</a>
+        <a href="prices.html" class="nav__link">Цены</a>
+        <a href="reviews.html" class="nav__link">Отзывы</a>
+        <a href="contacts.html" class="nav__link">Контакты</a>
+      </nav>
+
+      <a href="contacts.html" class="header__cta">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+          <rect x="3" y="5" width="18" height="16" rx="2"/><path d="M16 3v4M8 3v4M3 11h18"/>
+        </svg>
+        Записаться
+      </a>
+
+      <button class="burger" id="burger" aria-label="Меню" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="services.html" class="active">Услуги</a>
+      <a href="about.html">Обо мне</a>
+      <a href="prices.html">Цены</a>
+      <a href="reviews.html">Отзывы</a>
+      <a href="contacts.html">Контакты</a>
+      <a href="contacts.html" class="header__cta">Записаться</a>
+    </div>
+  </div>
+</header>
+
+<!-- ================= ЗАГОЛОВОК СТРАНИЦЫ ================= -->
+<section class="page-head">
+  <div class="wrap">
+    <div class="page-head__inner">
+      <nav class="breadcrumbs">
+        <a href="index.html">Главная</a>
+        <span class="sep">/</span>
+        <span class="current">Услуги</span>
+      </nav>
+      <h1>Услуги</h1>
+      <p>Каждая процедура начинается с диагностики кожи. Ниже — что делает процедура и кому она подходит.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= СПИСОК УСЛУГ ================= -->
+<section class="section">
+  <div class="wrap">
+
+    <!-- КОНСУЛЬТАЦИЯ -->
+    <div class="service-detail" id="consult">
+      <div class="reveal">
+        <p class="eyebrow">С чего начать</p>
+        <h3>Консультация</h3>
+        <p>
+          Если не знаете, какая процедура нужна — начните отсюда. Разберём состояние
+          кожи, текущий домашний уход и составим понятный план на ближайшие месяцы.
+        </p>
+        <p>
+          <strong>Кому подходит:</strong> всем, кто приходит впервые, и тем, кто хочет
+          поменять схему ухода.
+        </p>
+        <p>
+          Консультация бесплатная — это часть работы, а не отдельная услуга.
+          Мне важно понять вашу кожу до того, как что-то предлагать.
+        </p>
+      </div>
+
+      <aside class="side-card reveal">
+        <div class="side-card__label">Стоимость</div>
+        <div class="side-card__price side-card__price--free">Бесплатно</div>
+        <a href="contacts.html" class="btn btn--primary btn--sm">Записаться</a>
+      </aside>
+    </div>
+
+    <!-- МЕХАНИЧЕСКАЯ ЧИСТКА -->
+    <div class="service-detail" id="mech">
+      <div class="reveal">
+        <p class="eyebrow">01 · Чистки</p>
+        <h3>Механическая чистка</h3>
+        <p>
+          Классическая ручная чистка. Кожа распаривается и размягчается, после чего
+          поры прорабатываются вручную, а завершается всё успокаивающей маской
+          и финальным уходом.
+        </p>
+        <p>
+          <strong>Кому подходит:</strong> жирной и комбинированной коже, при забитых
+          порах и чёрных точках.
+        </p>
+      </div>
+
+      <aside class="side-card reveal">
+        <div class="side-card__label">Стоимость</div>
+        <div class="side-card__price">3 500 ₽</div>
+        <a href="contacts.html" class="btn btn--primary btn--sm">Записаться</a>
+      </aside>
+    </div>
+
+    <!-- УЛЬТРАЗВУКОВАЯ ЧИСТКА -->
+    <div class="service-detail" id="ultra">
+      <div class="reveal">
+        <p class="eyebrow">02 · Чистки</p>
+        <h3>Ультразвуковая чистка</h3>
+        <p>
+          Очищение кожи ультразвуком — без ручного выдавливания и давления на кожу.
+          Мягкий вариант для тех, кому механическая чистка не подходит
+          или тяжело переносится.
+        </p>
+        <p>
+          <strong>Кому подходит:</strong> чувствительной, тонкой и склонной
+          к раздражению коже.
+        </p>
+      </div>
+
+      <aside class="side-card reveal">
+        <div class="side-card__label">Стоимость</div>
+        <div class="side-card__price">2 000 ₽</div>
+        <a href="contacts.html" class="btn btn--primary btn--sm">Записаться</a>
+      </aside>
+    </div>
+
+    <!-- КАПИЛЛЯРОТЕРАПИЯ -->
+    <div class="service-detail" id="capillary">
+      <div class="reveal">
+        <p class="eyebrow">03 · Сосуды</p>
+        <h3>Капилляротерапия</h3>
+        <p>
+          Процедура, направленная на сосуды и микроциркуляцию: укрепляет сосудистую
+          стенку и улучшает питание кожи. Курс даёт более стойкий результат,
+          чем разовая процедура.
+        </p>
+        <p>
+          <strong>Кому подходит:</strong> при сосудистой сеточке, куперозе, тусклом
+          цвете лица и склонности к отёкам.
+        </p>
+      </div>
+
+      <aside class="side-card reveal">
+        <div class="side-card__label">Стоимость</div>
+        <div class="side-card__price">4 000 ₽</div>
+        <a href="contacts.html" class="btn btn--primary btn--sm">Записаться</a>
+      </aside>
+    </div>
+
+    <!-- ФРАКЦИОННАЯ ТЕРАПИЯ -->
+    <div class="service-detail" id="fractional">
+      <div class="reveal">
+        <p class="eyebrow">04 · Обновление</p>
+        <h3>Фракционная терапия</h3>
+        <p>
+          Фракционное воздействие на кожу: обновляет верхний слой и запускает
+          выработку собственного коллагена. Работает с текстурой и рельефом,
+          результат нарастает в течение курса.
+        </p>
+        <p>
+          <strong>Кому подходит:</strong> при неровной текстуре, постакне,
+          расширенных порах и первых морщинах.
+        </p>
+      </div>
+
+      <aside class="side-card reveal">
+        <div class="side-card__label">Стоимость</div>
+        <div class="side-card__price">2 500 ₽</div>
+        <a href="contacts.html" class="btn btn--primary btn--sm">Записаться</a>
+      </aside>
+    </div>
+
+    <!-- ФРАКЦИОННАЯ МЕЗОТЕРАПИЯ -->
+    <div class="service-detail" id="meso">
+      <div class="reveal">
+        <p class="eyebrow">05 · Обновление</p>
+        <h3>Фракционная мезотерапия</h3>
+        <p>
+          Введение уходовых коктейлей фракционным методом — питательные вещества
+          доставляются в кожу через микроканалы. Увлажняет, возвращает плотность
+          и тонус.
+        </p>
+        <p>
+          <strong>Кому подходит:</strong> сухой, обезвоженной коже и коже,
+          потерявшей тонус.
+        </p>
+      </div>
+
+      <aside class="side-card reveal">
+        <div class="side-card__label">Стоимость</div>
+        <div class="side-card__price">4 000 ₽</div>
+        <a href="contacts.html" class="btn btn--primary btn--sm">Записаться</a>
+      </aside>
+    </div>
+
+    <!-- СИЯНИЕ -->
+    <div class="service-detail" id="glow">
+      <div class="reveal">
+        <p class="eyebrow">06 · Экспресс-уход</p>
+        <h3>Процедура «Сияние»</h3>
+        <p>
+          Быстрый уход на выход: очищение, маска и финальный уход за один визит.
+          Заметный результат сразу, без реабилитации — можно планировать прямо
+          перед событием.
+        </p>
+        <p>
+          <strong>Кому подходит:</strong> перед свиданием, съёмкой, праздником —
+          когда нужен свежий вид сегодня.
+        </p>
+      </div>
+
+      <aside class="side-card reveal">
+        <div class="side-card__label">Стоимость</div>
+        <div class="side-card__price">3 000 ₽</div>
+        <a href="contacts.html" class="btn btn--primary btn--sm">Записаться</a>
+      </aside>
+    </div>
+
+    <!-- РОЗОВЫЙ ПИЛИНГ -->
+    <div class="service-detail" id="pink">
+      <div class="reveal">
+        <p class="eyebrow">07 · Пилинги</p>
+        <h3>Розовый пилинг</h3>
+        <p>
+          Мягкий поверхностный пилинг. Осветляет и выравнивает тон,
+          освежает цвет лица. Хороший вариант для первого знакомства с кислотами.
+        </p>
+        <p>
+          <strong>Кому подходит:</strong> тусклой коже с неровным тоном,
+          в том числе чувствительной.
+        </p>
+      </div>
+
+      <aside class="side-card reveal">
+        <div class="side-card__label">Стоимость</div>
+        <div class="side-card__price">3 000 ₽</div>
+        <a href="contacts.html" class="btn btn--primary btn--sm">Записаться</a>
+      </aside>
+    </div>
+
+    <!-- ФАРФОРОВАЯ КУКЛА -->
+    <div class="service-detail" id="porcelain">
+      <div class="reveal">
+        <p class="eyebrow">08 · Уход</p>
+        <h3>Фарфоровая кукла</h3>
+        <p>
+          Моделирующая процедура с плотной маской. Сужает поры, выравнивает рельеф
+          и даёт эффект «фарфоровой» кожи — ровной и матовой.
+        </p>
+        <p>
+          <strong>Кому подходит:</strong> при расширенных порах и коже,
+          потерявшей тонус.
+        </p>
+      </div>
+
+      <aside class="side-card reveal">
+        <div class="side-card__label">Стоимость</div>
+        <div class="side-card__price">2 000 ₽</div>
+        <a href="contacts.html" class="btn btn--primary btn--sm">Записаться</a>
+      </aside>
+    </div>
+
+    <!-- ПИЛИНГ ДЖЕССНЕРА -->
+    <div class="service-detail" id="jessner">
+      <div class="reveal">
+        <p class="eyebrow">09 · Пилинги</p>
+        <h3>Пилинг Джесснера</h3>
+        <p>
+          Классический комбинированный пилинг — один из самых рабочих вариантов
+          при постакне и неровной текстуре. Заметно обновляет кожу,
+          требует восстановления.
+        </p>
+        <p>
+          <strong>Кому подходит:</strong> при постакне, жирной коже, неровной
+          текстуре и пигментации.
+        </p>
+      </div>
+
+      <aside class="side-card reveal">
+        <div class="side-card__label">Стоимость</div>
+        <div class="side-card__price">3 000 ₽</div>
+        <a href="contacts.html" class="btn btn--primary btn--sm">Записаться</a>
+      </aside>
+    </div>
+
+    <!-- ЖИДКИЙ ЛАЗЕР -->
+    <div class="service-detail" id="laser">
+      <div class="reveal">
+        <p class="eyebrow">10 · Аппаратные</p>
+        <h3>Жидкий лазер</h3>
+        <p>
+          Аппаратная процедура обновления кожи. Работает с тоном и упругостью,
+          освежает лицо. Курс даёт накопительный результат.
+        </p>
+        <p>
+          <strong>Кому подходит:</strong> при неровном тоне и снижении упругости кожи.
+        </p>
+      </div>
+
+      <aside class="side-card reveal">
+        <div class="side-card__label">Стоимость</div>
+        <div class="side-card__price">5 000 ₽</div>
+        <a href="contacts.html" class="btn btn--primary btn--sm">Записаться</a>
+      </aside>
+    </div>
+
+    <!-- БИОРЕПИЛ -->
+    <div class="service-detail" id="biorepeel">
+      <div class="reveal">
+        <p class="eyebrow">11 · Пилинги</p>
+        <h3>Пилинг «Биорепил»</h3>
+        <p>
+          Пилинг без выраженного шелушения. Обновляет кожу и выравнивает тон,
+          но не выбивает из привычного ритма — после процедуры можно сразу
+          вернуться к делам.
+        </p>
+        <p>
+          <strong>Кому подходит:</strong> тем, кто не может позволить себе
+          шелушение — из-за работы, съёмок или событий.
+        </p>
+      </div>
+
+      <aside class="side-card reveal">
+        <div class="side-card__label">Стоимость</div>
+        <div class="side-card__price">4 000 ₽</div>
+        <a href="contacts.html" class="btn btn--primary btn--sm">Записаться</a>
+      </aside>
+    </div>
+
+    <!-- PRX -->
+    <div class="service-detail" id="prx">
+      <div class="reveal">
+        <p class="eyebrow">12 · Пилинги</p>
+        <h3>Пилинг PRX</h3>
+        <p>
+          Освежающий пилинг без шелушения и реабилитации. Работает с тургором
+          и тоном: кожа выглядит отдохнувшей уже после первой процедуры.
+        </p>
+        <p>
+          <strong>Кому подходит:</strong> при тусклой коже, когда нужен быстрый
+          эффект свежести без восстановления.
+        </p>
+      </div>
+
+      <aside class="side-card reveal">
+        <div class="side-card__label">Стоимость</div>
+        <div class="side-card__price">4 000 ₽</div>
+        <a href="contacts.html" class="btn btn--primary btn--sm">Записаться</a>
+      </aside>
+    </div>
+
+    <!-- ВОСК -->
+    <div class="service-detail" id="wax">
+      <div class="reveal">
+        <p class="eyebrow">13 · Депиляция</p>
+        <h3>Депиляция воском</h3>
+        <p>
+          Удаление волос воском по зонам. Метод и вид воска подбираю под зону
+          и чувствительность кожи. Итоговая сумма зависит от количества зон
+          за один визит.
+        </p>
+        <p>
+          <strong>Кому подходит:</strong> всем, у кого нет противопоказаний —
+          общий список ниже на странице.
+        </p>
+
+        <h4>Зоны и цены</h4>
+        <ul class="mini-price">
+          <li><span>Руки полностью</span><b>2 000 ₽</b></li>
+          <li><span>Руки до локтя</span><b>1 500 ₽</b></li>
+          <li><span>Ноги полностью</span><b>2 000 ₽</b></li>
+          <li><span>Ноги до колен</span><b>1 500 ₽</b></li>
+          <li><span>Бикини</span><b>1 500 ₽</b></li>
+          <li><span>Глубокое бикини</span><b>2 000 ₽</b></li>
+          <li><span>Подмышки</span><b>1 500 ₽</b></li>
+          <li><span>Лицо полностью</span><b>1 000 ₽</b></li>
+          <li><span>Живот</span><b>1 500 ₽</b></li>
+          <li><span>Спина</span><b>1 500 ₽</b></li>
+          <li><span>Бакенбарды</span><b>500 ₽</b></li>
+          <li><span>Усики</span><b>500 ₽</b></li>
+          <li class="is-total"><span>Всё тело без ограничения</span><b>5 000 ₽</b></li>
+        </ul>
+      </div>
+
+      <aside class="side-card reveal">
+        <div class="side-card__label">Стоимость</div>
+        <div class="side-card__price">от 500 ₽</div>
+        <a href="contacts.html" class="btn btn--primary btn--sm">Записаться</a>
+      </aside>
+    </div>
+
+  </div>
+</section>
+
+<!-- ================= ПОДГОТОВКА ================= -->
+<section class="section section--tint">
+  <div class="wrap">
+    <div class="section__head section__head--center reveal">
+      <p class="eyebrow">Перед визитом</p>
+      <h2>Как подготовиться</h2>
+      <p>Общие правила — точные рекомендации дам под вашу процедуру при записи.</p>
+    </div>
+
+    <div class="cards cards--3">
+      <article class="card reveal">
+        <h3>За 2–3 дня</h3>
+        <p>Откажитесь от скрабов, кислот и ретиноидов в домашнем уходе. Не приходите сразу после загара или солярия.</p>
+      </article>
+      <article class="card reveal">
+        <h3>В день процедуры</h3>
+        <p>Приходите с чистым лицом, без макияжа, если возможно. Плотно не ешьте за час до визита.</p>
+      </article>
+      <article class="card reveal">
+        <h3>После процедуры</h3>
+        <p>SPF 50 на улице, отказ от сауны и бассейна на несколько дней. Точные сроки зависят от процедуры.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ================= ПРОТИВОПОКАЗАНИЯ ================= -->
+<section class="section">
+  <div class="wrap">
+    <div class="section__head section__head--center reveal">
+      <p class="eyebrow">Важно знать</p>
+      <h2>Общие противопоказания</h2>
+      <p>Это не полный список — на консультации обсуждаем вашу ситуацию индивидуально.</p>
+    </div>
+
+    <div class="cards cards--3">
+      <article class="card reveal">
+        <h3>Острые состояния</h3>
+        <p>Температура, герпес в активной стадии, гнойничковые воспаления, свежие травмы и ожоги кожи.</p>
+      </article>
+      <article class="card reveal">
+        <h3>Хронические заболевания</h3>
+        <p>Онкология, декомпенсированный диабет, эпилепсия, нарушения свёртываемости крови.</p>
+      </article>
+      <article class="card reveal">
+        <h3>Беременность и ГВ</h3>
+        <p>Часть процедур и кислот ограничена. Обязательно сообщите — подберу безопасную альтернативу.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CTA ================= -->
+<section class="section section--tight">
+  <div class="wrap">
+    <div class="cta-band reveal">
+      <div>
+        <h2>Подберём процедуру под вашу кожу</h2>
+        <p>Оставьте заявку — свяжусь, отвечу на вопросы и предложу удобное время.</p>
+      </div>
+      <a href="contacts.html" class="btn btn--primary">Записаться</a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= ПОДВАЛ ================= -->
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer__top">
+      <a href="index.html" class="logo">
+        <span class="logo__mark">Х</span>
+        <span class="logo__text">
+          <span class="logo__name">Хава Садулаева</span>
+          <span class="logo__role">Косметолог-эстетист</span>
+        </span>
+      </a>
+      <nav class="footer__links">
+        <a href="services.html">Услуги</a>
+        <a href="about.html">Обо мне</a>
+        <a href="prices.html">Цены</a>
+        <a href="reviews.html">Отзывы</a>
+        <a href="contacts.html">Контакты</a>
+      </nav>
+    </div>
+    <div class="footer__bottom">
+      <span>© 2026 Хава Садулаева. Косметология и уход за кожей.</span>
+      <span class="footer__phone"><a href="tel:+79289523202">+7 928 952-32-02</a></span>
+      <span>Информация на сайте не является медицинской консультацией.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
